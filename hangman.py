@@ -7,7 +7,6 @@ wordlist = ["elephant", "lion" , "gazel" , "crocodile"]
 Secret_Word = random.choice(wordlist)
 
 
-
 display_word = []
 
 for letter in Secret_Word:
