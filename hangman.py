@@ -16,6 +16,7 @@ print(Secret_Word)
 print(display_word)
 num = 0
 game_over = False
+
 while not game_over:
     user_guess = str(input("guess the  letter you think is in the word: ")).lower()
     for position in range(len(Secret_Word)):
