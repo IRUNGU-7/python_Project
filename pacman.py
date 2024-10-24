@@ -1,3 +1,4 @@
+def eat_ghost(power_pellet_active, touching_ghost):
     if power_pellet_active == True and touching_ghost == True:
         return (True)
     else:
